@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+    margin : 0 auto;
+    /* background: grey; */
+    padding: .8rem 0rem;
+}
+
+.binder{
+    width: 100%;
+    background: #f7f7f7;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: #333;
+}
+
+.form-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.form-container > *{
+    grid-column: 2 / 3;
+}
+
+
+.btn{
+    width: 4.5rem;
+    padding: .4rem .7rem;
+}   

@@ -1,0 +1,24 @@
+.headline{
+    border-bottom: 1px solid gray;
+    padding-bottom: .3rem;
+}
+
+.input-title{
+    border-bottom: 1px solid grey;
+}
+
+.txt-area, .select, .bod{
+    height: 2.5rem;
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: .4rem;
+}
+
+.course-form .submit, .course-form .reset{
+    margin: .7rem 0rem 0rem 6.3rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}

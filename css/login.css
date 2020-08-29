@@ -1,0 +1,29 @@
+.headline{
+    border-bottom: 1px solid gray;
+    padding-bottom: .3rem;
+}
+
+.select{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.input-title{
+    border-bottom: 1px solid grey;
+}
+
+.txt-area, .select{
+    height: 2.5rem;
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: .4rem;
+}
+
+.login-form .submit{
+    margin-left: 6.3rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
